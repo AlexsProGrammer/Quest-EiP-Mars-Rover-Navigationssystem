@@ -18,4 +18,12 @@ public class Rover {
         // TODO: Implementiere hier die Logik
         return '\0';
     }
+
+    public int getX() {
+        return x;
+    }
+
+    public int getY() {
+        return y;
+    }
 }

@@ -15,7 +15,11 @@ out/
 # IDE files
 .idea/
 .vscode/
+.project
+.classpath
+.settings/
 *.iml
+bin/
 
 # OS files
 .DS_Store
