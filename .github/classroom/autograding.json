@@ -1,0 +1,28 @@
+{
+  "tests": [
+    {
+      "name": "Erfolgreiche Route ohne Hindernisse",
+      "run": "gradle test --tests \"*erfolgreicheRouteOhneHindernisse\"",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Absturz in Hindernis",
+      "run": "gradle test --tests \"*absturzInHindernisGibtFalseZurueck\"",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Absturz am Kartenrand",
+      "run": "gradle test --tests \"*absturzAmKartenrandGibtFalseZurueck\"",
+      "timeout": 10,
+      "points": 25
+    },
+    {
+      "name": "Nur Drehungen pruefen Richtung",
+      "run": "gradle test --tests \"*nurDrehungenAendernDieRichtungKorrekt\"",
+      "timeout": 10,
+      "points": 25
+    }
+  ]
+}
